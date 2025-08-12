@@ -56,6 +56,7 @@ const personIncomes = {
 };
 
 totalIncome = 0;
+
 for (let key in personIncomes) {
   totalIncome += personIncomes[key]
 }
